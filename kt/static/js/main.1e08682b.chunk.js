@@ -214,9 +214,9 @@
 				primary: F.a
 			}
 		}),
-			ge = ie("kt/assets/audio/di.mp3"),
-			me = ie("kt/assets/audio/ac-work.mp3"),
-			xe = ie("kt/assets/audio/air-extractor-fan.mp3");
+			ge = ie("https://symbean.com/kt/assets/audio/di.mp3"),
+			me = ie("https://symbean.com/kt/assets/audio/ac-work.mp3"),
+			xe = ie("https://symbean.com/kt/assets/audio/air-extractor-fan.mp3");
 		function fe() {
 			var e = ue(),
 				t = P((function (e) {
