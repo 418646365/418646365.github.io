@@ -3,12 +3,12 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>乖乖每天都要快乐吖</title>
+    <title>你一定要幸福，开心，平安</title>
     <meta name="viewport"
         content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
-    <!--    <meta itemprop="image" content="./images/symbean.png" />-->
+    <!--    <meta itemprop="image" content="./images/Hakarikyo.png" />-->
     <style>
         html {
             height: 100%;
@@ -107,15 +107,15 @@
 <body>
     <!--头像-->
     <div class="cs">
-        <img src="./images/anqi.jpg" id="logo">
+        <img src="./images/liuanqi.jpg" id="logo">
     </div>
     <canvas class="canvas" width="1820" height="905"></canvas>
     <p class="text" style="color: #8ef5ff;">
-        我想让風也开花 送你滿春的山花烂漫
+        我试过下落不明 原来真的无人问津 
         <br />
-        <span id="span_dt_dt"></span>
+        <span id="span_dt_dt">290天3小时20分22秒</span>
     </p>
-    <script language="javascript">
+<!-- <script language="javascript">
         function show_date_time() {
             window.setTimeout("show_date_time()", 1000);
             //在一起的那天
@@ -136,14 +136,15 @@
         }
 
         show_date_time();
-    </script>
+    </script> 
+                -->
     <script>
         var S = {
             init: function () {
                 S.Drawing.init('.canvas');
                 document.body.classList.add('body--ready');
                 // 动态变化,|分割
-                S.UI.simulate("How|I|Meet|My|Dear|Pig|I|Love|You|#countdown 3|#time");
+                S.UI.simulate("再|也|不|见|了|我|挚|爱|过|的|人|#countdown 3|#time");
                 S.Drawing.loop(function () {
                     S.Shape.render();
                 });
@@ -290,14 +291,14 @@
 
                             if (sequence.length > 0) {
                                 //定格
-                                S.Shape.switchShape(S.ShapeBuilder.letter("♥刘安琪♥"))
+                                S.Shape.switchShape(S.ShapeBuilder.letter("刘安琪"))
                             } else {
                                 timedAction(function () {
                                     t = formatTime(new Date());
                                     if (t !== time) {
                                         time = t;
                                         //定格
-                                        S.Shape.switchShape(S.ShapeBuilder.letter("♥刘安琪♥"))
+                                        S.Shape.switchShape(S.ShapeBuilder.letter("刘安琪"))
                                     }
                                 }, 1000);
                             }
@@ -679,7 +680,7 @@
         S.init();
     </script>
     <audio autoplay="autoplay" loop="loop">
-        <source src="./yigege.mp3" type="audio/mpeg">
+        <source src="./fengci.mp3" type="audio/mpeg">
     </audio>
 </body>
 
